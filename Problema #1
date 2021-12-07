@@ -1,14 +1,10 @@
-let numero = 0;
-//var nombre = 0;
-//var numero = 0;
+var nombre = prompt("Escribe tu nombre");
 
-let nombre = "TU NOMBTRE" ;  //prompt("tu nombre")
-let numero =5 ;  //parseInt(prompt("Repite la variable nombre las veces que var numero diga"))
+var num = prompt("Escribe el numero de veces que quieres que se repita tu nombre");
 
-while(numero < numero)
-{
-    console.log(nombre + numero);
-   
-    
-    numero-=-1;
+var contador = 1;
+
+while (contador <= num) {
+    document.write (nombre + "<br>");
+    contador++;
 }
